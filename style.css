@@ -82,19 +82,3 @@ html{
     display: inline-block;
     align-content: center;
 }
-
-@media (min-width: 1199.98px)  {
-    body{background: rgb(0, 0, 0);}
-}
-@media (min-width: 576px) and (max-width: 991.98px) and (orientation:portrait) {
-    body{background: rgb(0, 0, 0);}
-}
-@media (min0-width: 991.98px) and (max-width: 1199.98px)and (orientation:landscape) {
-    body{background: rgb(0, 0, 0);}
-}
-@media (max-width: 575.98px)and (orientation:portrait) {
-    body{background: rgb(0, 0, 0);}
- }
- @media (min-width: 576px) and (max-width: 991.98px) and (orientation:landscape) {
-    body{background: rgb(0, 0, 0);}
-}
