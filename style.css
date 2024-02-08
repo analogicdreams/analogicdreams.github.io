@@ -1,95 +1,100 @@
-#principales{
-    width: 1800px;
-    height: 400px;
+#primaria{
+    width: 832px;
+    height: 250px;
     border-radius: 30px;
     border-width: 15px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 10px;
-    margin-bottom: 10px;     
-}
-#secundarias{
-    width: 250px;
-    height: 300px;
-    border-radius: 30px;
-    border-width: 7px;
-    border-style: solid;
-    border-color:rgb(110, 76, 4);
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
-
-}
-#baner{
-    width: 250px;
-    height: 150px;
-    border-radius: 30px;
-    border-width: 15px;
-    margin-right: 60px;
-    margin-left: 60px;
-}
-#vacio{
-    margin-top: -10px;
-    margin-left: -8px;
-    margin-right: -8px;
-    margin-bottom: -10px;
+    align-content: center;
 }
 html{
     scroll-behavior:smooth;
 }
-.baner_ok{
-    width: 1800px;
-    height: 400px;
-    border-radius: 30px;
-    border-width: 15px;
-    margin-left: 50px;
-    margin-right: 50px;
+#fondo{
+    background-color: black;
     margin-top: 10px;
-    margin-bottom: 10px;  
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    align-content: center;
 }
-h2{
-    color:rgb(255, 255, 255);
-      font-size: 25px; 
-      font-family: 'Sevillana', cursive;
-      margin-right: 10px;
-      margin-left: 10px;
-}
-h3{
-    color:rgb(255, 255, 255);
-      font-size: 20px; 
-      font-family: 'Sevillana', cursive;
-      margin-right: 10px;
-      margin-left: 10px;
-}
-p{
-    color:rgb(255, 255, 255);
-      font-size: 15px; 
-      font-family: 'Sevillana', cursive;
-      margin-right: 10px;
-      margin-left: 10px;
-}
-#miniaturas_ct{
-    width: 160px;
-    height: 200px;
+#menu{
+    width: 210px;
+    height: 250px;
     border-radius: 30px;
     border-width: 7px;
     border-style: solid;
     border-color:rgb(110, 76, 4);
     margin-left: 30px;
-    margin-right: 30px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    align-content: center;
 }
-#catalogo_img{
-    width: 500px;
-    height: 350px;
+#secundarias{
+    width: 210px;
+    height: 150px;
     border-radius: 30px;
     border-width: 7px;
     border-style: solid;
     border-color:rgb(110, 76, 4);
     margin-left: 30px;
-    margin-right: 30px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    align-content: center;
+}
+.contenido{
+    width: 832px;
+    height: 250px;
+    display: flex;
+}
+#miniaturas{
+    width: 210px;
+    height: 270px;
+    border-radius: 30px;
+    border-width: 7px;
+    border-style: solid;
+    border-color:rgb(110, 76, 4);
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    align-content: center;
+}
+#galeria{
+    width: 350px;
+    height: 210px;
+    border-radius: 30px;
+    border-width: 7px;
+    border-style: solid;
+    border-color:rgb(110, 76, 4);
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    align-content: center;
+}
+
+@media (min-width: 1199.98px)  {
+    body{background: rgb(0, 0, 0);}
+}
+@media (min-width: 576px) and (max-width: 991.98px) and (orientation:portrait) {
+    body{background: rgb(0, 0, 0);}
+}
+@media (min0-width: 991.98px) and (max-width: 1199.98px)and (orientation:landscape) {
+    body{background: rgb(0, 0, 0);}
+}
+@media (max-width: 575.98px)and (orientation:portrait) {
+    body{background: rgb(0, 0, 0);}
+ }
+ @media (min-width: 576px) and (max-width: 991.98px) and (orientation:landscape) {
+    body{background: rgb(0, 0, 0);}
 }
