@@ -82,3 +82,15 @@ html{
     display: inline-block;
     align-content: center;
 }
+
+@media (min-width: 833px)  {
+    body{background: rgb(0, 0, 0);}
+}
+
+@media (max-width: 415px)and (orientation:portrait) {
+    body{background: rgb(0, 0, 0);}
+ }
+/*landscape*/
+@media (min-width: 415px) and (max-width: 833px) and (orientation:landscape) {
+    body{background: black;}
+}
