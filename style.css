@@ -83,14 +83,21 @@ html{
     align-content: center;
 }
 
+/*escritorio web*/
 @media (min-width: 833px)  {
     body{background: rgb(0, 0, 0);}
 }
-
-@media (max-width: 415px)and (orientation:portrait) {
+/*tablet*/
+@media (min-width: 415px) and (max-width: 833px) and (orientation:portrait) {
+    body{background: rgb(0, 0, 0);}
+}
+@media (min0-width: 991.98px) and (max-width: 1199.98px)and (orientation:landscape) {
+    body{background: rgb(0, 0, 0);}
+}
+/*celular*/
+@media (max-width: 415px) and (max-width: 833px) and (orientation:portrait) {
     body{background: rgb(0, 0, 0);}
  }
-/*landscape*/
 @media (min-width: 415px) and (max-width: 833px) and (orientation:landscape) {
     body{background: black;}
 }
