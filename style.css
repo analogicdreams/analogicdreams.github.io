@@ -56,6 +56,17 @@ html{
     align-content: center;
 }
 
+h2{
+    color: rgb(255, 255, 255);
+    font-size:larger;
+    font-family: 'Sixtyfour', sans-serif;
+}
+h3{
+    color: rgb(255, 255, 255);
+    font-size: small;
+    font-family: 'Sixtyfour', sans-serif;
+}
+
 /*escritorio web*/
 @media (min-width: 833px)  {
     body{background: rgb(0, 0, 0);}
